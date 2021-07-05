@@ -1,0 +1,57 @@
+
+
+<html>
+	<head>
+		<title>Payment| Online Grocery</title>
+		
+                                       <link rel="stylesheet" href="logincss.css">
+                                     
+         
+   
+	</head>
+
+	<body>
+	 <div class= "log">
+     <div class ="page-title"> ONLINE GROCERIES</div>
+	 
+     
+       
+    </div>
+	 	
+			                <div class="container">
+			                 <h2 style="color:red;">Select the payment options</h2>
+                             <style>
+                           h2{text-align: center;
+		                    
+                           }			   
+                            </style>        
+							<input type="radio" id="cod" value="COD">COD</br> </br> 
+                            <input type="radio" id="online" value="ONLINE PAYMENT">ONLINE PAYMENT</br> </br> 
+                            <button  class="btn" type="button" onclick=" checkButton()"> Submit </button> </br></br> 
+						
+                                            </div>
+                                    </div>
+		
+		
+	</body>
+
+<script>
+function checkButton() {  
+            if(document.getElementById('cod').checked) { 
+                document.location.href = "address.php";
+
+                
+            } 
+            else if(document.getElementById('online').checked) { 
+               document.location.href = "address.php";
+            } 
+            
+            else { 
+                document.getElementById("error").innerHTML 
+                    = "You have not selected any season"; 
+            } 
+        } 
+    </script> 
+</html>
+
+ 

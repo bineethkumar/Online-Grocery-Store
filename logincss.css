@@ -1,0 +1,52 @@
+.log{
+     background-image:url(' images/groceries.jpg') ;
+     height: max-content;
+     background-attachment:fixed;
+     background-postion: center;
+     background-repeat: no-repeat;
+     background-size:cover;
+}
+.page-title{
+    background: rgba(0,0,0,0.5);
+    text-align:center;
+    color: yellow;
+    padding:50px;
+    font-variant:small-caps;
+    font-size:100px;
+    font-family:fantasy;
+    letter-spacing:20px;
+   
+}
+ body{
+                  width: 100%;
+                   font-size:20px;
+                  background: url(images/groc2.jpg) ;
+                  background-position: center center;
+                  background-repeat: no-repeat;
+                  background-attachment: fixed;
+                  background-size: cover;
+                  text-align:center;
+                
+}
+
+                 
+                
+            
+  .btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px;
+  cursor: pointer;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+          

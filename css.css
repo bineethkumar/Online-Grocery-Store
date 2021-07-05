@@ -1,0 +1,161 @@
+body{
+   margin:0;
+   font-family:system-ui;
+
+}
+
+
+
+.scrolling
+{    background: rgba(0,0,0,0.5);
+     background-color: white;
+    text-align:center;
+    color: red;
+    padding:5px;
+    font-variant:small-caps;
+    font-size:20px;
+    font-family:Times New Roman;
+    letter-spacing:2px;
+}
+    
+.main{
+     background-image:url(' images/groceries.jpg') ;
+     height: max-content;
+     background-attachment:fixed;
+     background-postion: center;
+     background-repeat: no-repeat;
+     background-size:cover;
+}
+.page-title{
+    background: rgba(0,0,0,0.5);
+    text-align:center;
+    color: yellow;
+    padding:50px;
+    font-variant:small-caps;
+    font-size:100px;
+    font-family:fantasy;
+    letter-spacing:20px;
+
+}
+.sticky{
+        position:fixed;
+        top:0;
+        width:100%;
+}
+
+.menu{
+        background: #38B5A7;
+        text-align:center;
+
+}
+.menu-ul{
+           margin:0;
+           padding:0;
+           display:inline;
+ }
+.menu-ul li{
+           font-size:17px;
+           list-style:none;
+          display:inline-block;
+           padding:25px 25px 26px 25px;
+ }
+.a-menu{
+           text-decoration:none;
+           color: white;
+}
+.menu-ul li:hover{
+            background:#5b8c5a;
+            trasform:scale(1.1);
+}
+.search-box{
+           border:1px solid yellow;
+            border-radius:50px;
+             background:white;
+            width: max-content;
+             display:inline-block;
+             margin:8px;
+}
+.search-box:hover{
+box-shadow: 0 0 10px 2px #5b8c5a;
+border: 1px solid #5b8c5a;
+}
+.search-input{
+width: 250px;
+border:none;
+font-size:16px;
+outline:none;
+background:transparent;
+margin:15px 0 0 10px;
+}
+
+font-size:20px;
+margin:0 10px 0 0;
+}
+.button {
+background:transparent;
+border:none;
+outline:none;
+}
+.container{
+margin:50px 50px 50px 5%;
+width 90%;
+text-align:center;
+}
+.categories{
+ width: max-content;
+margin:25px;
+border:1px solid #184d47;
+border-radius:0 0 50px 50px;
+display: inline-block;
+}
+.categories:hover{
+box-shadow:0 0 10px 3px  #184d47;
+}
+.item-image{
+height:200px;
+width:200px;
+border-radius: 0 0 50px 50px;
+padding:10px;
+}
+.image-title{
+    text-align:center;
+    padding:10px;
+    font-weight:bold;
+}
+
+a{
+text -decorattion:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
